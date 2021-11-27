@@ -1,0 +1,13 @@
+.schedule {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+
+    &-status {
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+        background-color: var(--color-text);
+        margin-left: 5px;
+    }
+}

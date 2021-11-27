@@ -1,0 +1,10 @@
+{
+    email misha@myrt.co
+    admin 0.0.0.0:2021
+}
+
+paulownia-group.me {
+    root * /statics/
+    file_server
+    reverse_proxy /api/mail paul-api:3000
+}
